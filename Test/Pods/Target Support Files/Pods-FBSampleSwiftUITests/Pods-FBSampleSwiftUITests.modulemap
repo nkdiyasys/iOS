@@ -1,0 +1,6 @@
+framework module Pods_FBSampleSwiftUITests {
+  umbrella header "Pods-FBSampleSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
