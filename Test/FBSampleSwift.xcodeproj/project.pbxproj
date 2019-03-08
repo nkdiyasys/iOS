@@ -485,7 +485,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tregaron India Holdings, LLC (ULN4HA5APP)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -546,7 +547,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tregaron India Holdings, LLC (ULN4HA5APP)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -574,17 +576,17 @@
 			baseConfigurationReference = 8DCCEE2DDD8DAF9966F036D7 /* Pods-FBSampleSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ramya Raman (JU229U7S74)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tregaron India Holdings, LLC (ULN4HA5APP)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = FN3AS2UYA8;
+				DEVELOPMENT_TEAM = ULN4HA5APP;
 				INFOPLIST_FILE = FBSampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsnl.multicallapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glowtouch.storywise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DevProfileNewAccount;
+				PROVISIONING_PROFILE_SPECIFIER = "Atria StoryWise Distribution";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -595,17 +597,17 @@
 			baseConfigurationReference = A725DD69C16394B46D4F24EF /* Pods-FBSampleSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ramya Raman (JU229U7S74)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tregaron India Holdings, LLC (ULN4HA5APP)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = FN3AS2UYA8;
+				DEVELOPMENT_TEAM = ULN4HA5APP;
 				INFOPLIST_FILE = FBSampleSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dsnl.multicallapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glowtouch.storywise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = DevProfileNewAccount;
+				PROVISIONING_PROFILE_SPECIFIER = "Atria StoryWise Distribution";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
