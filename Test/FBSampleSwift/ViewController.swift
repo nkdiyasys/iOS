@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         fbLoginManager.logIn(withReadPermissions: ["email"/*, "public_profile"*/], from: self) { (result, error) in
             if (error == nil){
                 let fbloginresul11 : FBSDKLoginManagerLoginResult = result!
-               print(fbloginresult11)
+                print(fbloginresul11)
         }
         }
     }
