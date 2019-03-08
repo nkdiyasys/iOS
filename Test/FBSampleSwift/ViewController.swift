@@ -21,6 +21,7 @@ class ViewController: UIViewController {
             if (error == nil){
                 let fbloginresul11 : FBSDKLoginManagerLoginResult = result!
                 print(fbloginresul11)
+                print(fbloginresul11)
         }
         }
     }
