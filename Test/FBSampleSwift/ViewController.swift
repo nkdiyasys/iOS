@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         fbLoginManager.logOut()
         fbLoginManager.logIn(withReadPermissions: ["email"/*, "public_profile"*/], from: self) { (result, error) in
             if (error == nil){
-                let fbloginresult : FBSDKLoginManagerLoginResult = result!
-               print(fbloginresult)
+                let fbloginresult1 : FBSDKLoginManagerLoginResult = result!
+               print(fbloginresult1)
         }
         }
     }
